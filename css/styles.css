@@ -1,4 +1,4 @@
-html, body {
+html, body{
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -72,20 +72,6 @@ li{
     border-bottom: 2px solid #F2F2F2;
 }
 
-
-
-.raisin-info{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: column;
-}
-
-.raisin-info p{
-    display: flex;
-    flex-direction: column;
-
-}
-
 .show button{
     background-color: #EBB625;
     color:white;
@@ -95,14 +81,39 @@ li{
     font-size: medium;
 }
 
+.show button:hover{
+    background-color: #8f7222;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.map{
+    width: 300px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.footer-list ul{
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.blank{
+    color: black;
+}
+
 .flexbox-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid orange;
 }
 
-.flexbox-item {
-    border: 1px solid yellow;
-}
 
